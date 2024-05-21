@@ -7,7 +7,7 @@ For computer vision applications, CNN combined with Transfer Learning, Python, a
 ### 1. Dataset
 The brain tumor dataset from Cheng, Jun, which can be accessed for free online at https://figshare.com/articles/brain_tumor_dataset/1512427/5, was utilized in this work. The collection comprises 3064 T1 weighted and contrast-enhanced brain MRI images, classified into three categories: pituitary tumor, meningioma, and glioma. The number of photos in the dataset for each class is listed in Figure 1. The patient ID (PID), tumor mask, tumor border, and class label are all fully described and provided for every image in the dataset. The lesion mask, which is used to crop the tumor region of interest (ROI), is the most crucial piece of information after the class label.
 
-Figure 1: Summary of Used Image Dataset
+### Figure 1: Summary of Used Image Dataset
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/347db50f-c3bb-48ce-9e41-63d63f69a676)
 
@@ -34,42 +34,42 @@ Based on these produced confusion matrices, a comparison between the CNN archite
 6.	Testing and Validation: Robust testing and validation procedures guarantee the ResNet-50 model's accuracy and resilience across a variety of datasets and clinical settings.
 7.	Continuous Improvement: The ResNet-50 model's continuous optimization and efficacy are ensured by ongoing improvements and refinements made in response to user input and developments in machine learning techniques.
 
-Figure 2: Proposed System Architecture
+### Figure 2: Proposed System Architecture
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/59df1ab8-d81b-4a02-80e2-d0c4ee3fb4f7)
 
-### 6.Results
+## 6.Results
 ### 6.1	Validation Results
 Validation of our system involves rigorous testing against diverse datasets and clinical scenarios to ensure its reliability, accuracy, and generalizability in real-world healthcare settings.
 
-Figure 1: Confusion Matrix for Model's performance
+### Figure 1: Confusion Matrix for Model's performance
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/eaf15b44-9f78-41e2-bbd5-94b3fa0f8b0d)
 
-Figure 2: Graphical Representation of the Model’s Accuracy for Training and Validation Data
+### Figure 2: Graphical Representation of the Model’s Accuracy for Training and Validation Data
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/fe5a733b-e2cc-4e45-bc2d-4fc125ff8597)
 
-Figure 3: Graphical Representation of the Model’s Loss for Training and Validation Data
+### Figure 3: Graphical Representation of the Model’s Loss for Training and Validation Data
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/07fcadde-1106-4013-ac3a-fecd4f8b787b)
 
 ### 6.2	Final Prediction Outputs
 Here are our final predictions for the classes pituitary tumor, Meningioma, and Glioma
 
-Figure 1: Home Page
+### Figure 1: Home Page
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/86eaa313-fb23-4dbe-937a-f8c05b04bde1)
 
-Figure 2: Prediction for Glioma
+### Figure 2: Prediction for Glioma
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/38d61232-4746-4de0-97f1-ca5b81fd72ac)
 
-Figure 3: Prediction for Meningioma
+### Figure 3: Prediction for Meningioma
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/53e5a3aa-4102-4ce4-b328-9cff38ec7a81)
 
-Figure 4: Prediction for Pituitary
+### Figure 4: Prediction for Pituitary
 
 ![image](https://github.com/ImVijayKumar/Detection-of-SubTypes-Of-Brain-Tumors-Using-ResNet50-with-Transfer-Learning/assets/142383380/cd09cead-d455-4ab6-8d15-03ffea351436)
 
